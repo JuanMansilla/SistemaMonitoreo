@@ -35,7 +35,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR01PAD-15',
 		3,
-		'Ubicado en el lift N� 03',
+		'Ubicado en el lift N 03',
 		1,
 		'12/23/2019'
 	)
@@ -43,7 +43,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR02PAD-15',
 		3,
-		'Ubicado en el lift N� 03',
+		'Ubicado en el lift N 03',
 		1,
 		'12/23/2019'
 	)
@@ -51,7 +51,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR03PAD-15',
 		3,
-		'Ubicado en el lift N� 03',
+		'Ubicado en el lift N 03',
 		1,
 		'12/23/2019'
 	)
@@ -59,7 +59,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR04PAD-15',
 		3,
-		'Ubicado en el lift N� 03',
+		'Ubicado en el lift N 03',
 		1,
 		'12/23/2019'
 	)
@@ -75,7 +75,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR06PAD-15',
 		3,
-		'Ubicado en el lift N� 06',
+		'Ubicado en el lift N 06',
 		1,
 		'12/23/2019'
 	)
@@ -83,7 +83,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR07PAD-15',
 		3,
-		'Ubicado en el lift N� 06',
+		'Ubicado en el lift N 06',
 		1,
 		'12/23/2019'
 	)
@@ -91,7 +91,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR08PAD-15',
 		3,
-		'Ubicado en el lift N� 09',
+		'Ubicado en el lift N 09',
 		1,
 		'12/23/2019'
 	)
@@ -99,7 +99,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR09PAD-15',
 		3,
-		'Ubicado en el lift N� 09',
+		'Ubicado en el lift N 09',
 		1,
 		'12/23/2019'
 	)
@@ -107,7 +107,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR10PAD-15',
 		3,
-		'Ubicado en el lift N� 09',
+		'Ubicado en el lift N 09',
 		1,
 		'12/23/2019'
 	)
@@ -115,7 +115,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR11PAD-15',
 		3,
-		'Ubicado en el lift N� 09',
+		'Ubicado en el lift N 09',
 		1,
 		'12/23/2019'
 	)
@@ -123,7 +123,7 @@ INSERT INTO NombrePrism
 VALUES (
 		'PR12PAD-15',
 		3,
-		'Ubicado en el lift N� 09',
+		'Ubicado en el lift N 09',
 		1,
 		'12/23/2019'
 	)
@@ -149,9 +149,23 @@ DELETE FROM Responsables;
 -- Tabla EquipoMedicion: Donde se encuentran instalados los prismas
 --
 INSERT INTO PuntosControl
-VALUES ('E-1', 315328.276, 9100849.480, 4297.794, 2, 'NN');
+VALUES (
+		'E-1',
+		315328.276,
+		9100849.480,
+		4297.794,
+		2,
+		'NN'
+	);
 INSERT INTO PuntosControl
-VALUES ('E-2', 315306.087, 9100888.894, 4294.695, 2, 'NN');
+VALUES (
+		'E-2',
+		315306.087,
+		9100888.894,
+		4294.695,
+		2,
+		'NN'
+	);
 ---------------------------------------------------
 ---------------------------------------------------
 ---------------------------------------------------
